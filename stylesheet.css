@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+
+.copen-nav {
+    background-color: #1b1b1b;
+}
+
+.copen-links {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+
+.copen-title {
+    font-family: 'Yeseva One', serif;
+    font-size: 36px;
+}
+
+.copen-img {
+    filter: brightness(90%);
+}
+
+h1 {
+    font-family: 'Yeseva One', serif;
+    font-size: 90px;
+    color: #ffffff;
+}
+.copen-overlay {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.copen-intro {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 149%;
+    padding: 40px;
+}
+
+.copen-button1 {
+    background-color: #5F7A64;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    border-radius: 200px;
+    padding: 8px 28px 8px 28px;
+    border: none;
+}
+
+.copen-button1:hover {
+    background-color: #ffffff;
+    color: #5F7A64;
+    transition: background-color 3s;
+}
+
+.copen-button2 {
+    background-color: #5F7A64;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    border-radius: 200px;
+    padding: 8px 28px 8px 28px;
+    border: none;
+}
+
+.copen-button2:hover {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    transition: background-color 3s;
+}
+
+h2 {
+    font-family: 'Yeseva One', serif;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.copen-ttractions {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 149%;
+    padding: 40px;
+}
+
+.copen-contact {
+    background-color: #ffffff;
+}
+
+.copen-contact h2 {
+    color: #5F7A64;
+}
+
+.copen-label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.copen-form {
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 100px;
+    border-color: #E0E0E0;
+    color: #828282;
+    padding: 20px;
+}
+
+.copen-list {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 228%;
+}
+
+.copen-input {
+    padding-bottom: 15px;
+}
