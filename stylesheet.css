@@ -3,6 +3,7 @@
 
 .copen-nav {
     background-color: #1b1b1b;
+    box-shadow: 0px 1px 10px #999;
 }
 
 .copen-links {
@@ -14,6 +15,7 @@
 .copen-title {
     font-family: 'Yeseva One', serif;
     font-size: 36px;
+    animation: colorchange 3s linear 0s infinite;
 }
 
 .copen-img {
@@ -22,12 +24,13 @@
 
 h1 {
     font-family: 'Yeseva One', serif;
-    font-size: 90px;
+    font-size: 70px;
     color: #ffffff;
 }
+
 .copen-overlay {
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -97,6 +100,9 @@ h2 {
 
 .copen-contact h2 {
     color: #5F7A64;
+    font-size: 24px;
+    line-height: 149%;
+    padding-top: 40px;
 }
 
 .copen-label {
@@ -123,4 +129,111 @@ h2 {
 
 .copen-input {
     padding-bottom: 15px;
+}
+
+.copen-imghigh {
+    width:100%;
+    height: 414px;
+    object-fit: cover;
+    display:inline-block;
+    filter: grayscale(0%) brightness(90%);
+    transition: all 0.5s ease;
+}
+
+.copen-imghigh:hover {
+    filter: grayscale(100%);
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.copen-highimg {
+    width:100%;
+    height: 413px;
+    object-fit: cover;
+    display:inline-block;
+    filter: grayscale(0%) brightness(90%);
+    transition: all 0.5s ease;
+}
+
+h3 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+}
+.copen-overlay2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.copen-overlay2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.copen-tivoli {
+    position: relative;
+}
+
+.copen-caption {
+    position: absolute;
+    top: 72%;
+    left: 0%;
+    width: 100%;
+}
+
+.copen-caption-time {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+}
+
+.caption-text {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    background-color:rgb(27,27,27, 0.9);
+    line-height: 149%;
+    padding: 17px 40px 17px 40px;
+}
+
+.copen-imgfit {
+    width:100%;
+    height: 413px;
+    object-fit: cover;
+    display:inline-block;
+}
+
+.copen-footer {
+    background-color: #F2F2F2;
+    margin-top: 35px;
+    padding: 35px;
+}
+
+.copen-footer-content {
+    color: #5F7A64;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.copen-socials {
+    color: #1b1b1b;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.copen-socials:hover {
+    color: #5F7A64;
+    transition: all 1s ease;
+}
+
+@keyframes colorchange {
+    0% { color: #ffffff; }
+    50% { color: #5F7A64; }
+    100% { color: #ffffff; }
 }
